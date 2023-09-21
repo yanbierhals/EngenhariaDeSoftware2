@@ -13,7 +13,7 @@ def marcar_tarefa_concluida():
     
     if 1 <= indice <= len(tarefas):
         tarefas.pop(indice - 1)
-        print("Tarefa marcada como concluída!")
+        print("Tarefa  concluída")
     else:
         print("Índice inválido. Tarefa não encontrada.")
 
